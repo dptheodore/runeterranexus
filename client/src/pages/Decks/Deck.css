@@ -1,0 +1,285 @@
+
+
+.hover-images{
+    height:250px;
+    width: auto;
+    z-index: 10;
+    
+}
+
+.opaque{
+	opacity: 1 !important;
+}
+
+
+/*.manaCurve{
+	
+	margin-top: -40px;
+	margin-left: -50px;
+	width:100%;
+}*/
+
+/* Rarity Colors*/
+
+
+
+.COMMON{
+	position: relative;
+	z-index: 3;
+	top: 38px;
+	right: 7px;
+	width: 24px;
+	height: 48px;
+	border-color: #B1FE6A;
+	border-style: solid;
+  	border-width: 2px;
+  	margin-left: 15px;
+  	margin-right: 10px;
+}
+.EPIC{
+	position: relative;
+	z-index: 3;
+	top: 38px;
+	right: 7px;
+	width: 24px;
+	height: 48px;
+	border-color: #F080FE;
+	border-style: solid;
+	border-width: 2px;
+	margin-left: 15px;
+  	margin-right: 10px;
+}
+.RARE{
+	position: relative;
+	z-index: 3;
+	top: 38px;
+	right: 7px;
+	width: 24px;
+	height: 48px;
+	border-color: #4CB4FA;
+	border-style: solid;
+	border-width: 2px;
+	margin-left: 15px;
+  	margin-right: 10px;
+}
+.Champion{
+	position: relative;
+	z-index: 3;
+	top: 38px;
+	right: 7px;
+	width: 24px;
+	height: 48px;
+	border-color: #FAD750;
+	border-style: solid;
+  	border-width: 2px;
+  	margin-left: 15px;
+  	margin-right: 10px;
+}
+
+/*Region Borders*/
+
+.mana-image{
+	height: 32px !important;
+}
+
+.manacost{
+	
+	overflow: hidden;
+	padding-right: 10px;
+
+}
+.count{
+	position: relative;
+	z-index: 3;
+	top: 38px;
+	left: 5px;
+	color: #FFF8F0;
+	font-size: 125%;
+	font: bold;
+}
+
+.counter{
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 250%;
+}
+
+
+.cardart{
+	height: 50px;
+	width: 60px;
+	overflow: hidden;
+	border-radius: 50%;
+	padding-right: 10px;
+}
+
+.rhs{
+	margin-top: 50px;
+}
+
+.cardName{
+	font-size: 125%;
+	font-weight: bold;
+}
+
+
+ul.a{
+	list-style-type: none;
+}
+
+.regionImg{
+	width: 20%;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+.typeImg{
+	width: 16.66%;
+	padding-bottom: 20px;
+}
+
+.rareImg{
+	width: 10%;
+	padding-bottom: 20px;
+	padding-right: 2px;
+}
+
+.regionBreakdown{
+	width: 100%;
+	text-align: center;
+}
+.cardTypeBreakdown{
+	height: 100px;
+	text-align: center;
+}
+.deckList{
+	margin-bottom: 30px;
+}
+
+
+
+
+.headers {
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+
+#pageList{
+	padding-top: 75px;
+	padding-bottom: 20px;
+}
+
+.cardTiles::before {
+    content: '';
+    position:absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, rgb(52,41,54) 55%, rgba(52,41,54,0) 80%) right no-repeat;
+    z-index: 1;  
+
+}
+
+.cardTiles {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 250px;
+    height: 52px;
+    /* transform: translate(10%, -77%); */
+    cursor: pointer;    
+
+    
+}
+
+.cardContainer{
+	
+	margin-bottom: 52px;
+	height: 0px;
+	width: 0px;
+}
+
+/*Region Borders*/
+.cardTiles.Bilgewater{
+
+    border: 3px solid #c9aa71 !important ;
+    
+}
+.cardTiles.Ionia{
+
+    border: 3px solid #C0587A !important ;
+    
+}
+.cardTiles.Demacia{
+
+    border: 3px solid #F4EEDE !important ;
+    
+}
+.cardTiles.Freljord{
+
+    border: 3px solid #64D1F7 !important ;
+    
+}
+.cardTiles.PiltoverZaun{
+
+    border: 3px solid #FC9E6C !important;
+    
+}
+.cardTiles.Noxus{
+
+    border: 3px solid #781817 !important ;
+    
+}
+.cardTiles.ShadowIsles{
+
+    border: 3px solid #05754A !important ;
+}
+
+
+
+
+/*
+Extra Colors
+Common
+#B1FE6A
+#289009
+
+Rare
+#ABFCFF
+#4CB4FA
+
+Epic
+#F080FE
+#612885
+
+Champion
+#FAD750
+#763604
+
+regions
+
+Demacia
+#DDC999
+#F4EEDE
+
+Freljord
+#64D1F7
+#C2EDFC
+
+Ionia
+#E4B6C5
+#C0587A
+
+Noxus
+#ED6662
+#781817
+
+P&Z
+#D0C33E
+#FC9E6C
+
+Shadow Isle
+#15D4C6
+#05754A
+*/

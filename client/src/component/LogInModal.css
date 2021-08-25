@@ -1,0 +1,16 @@
+#logInModal{
+    width: 200px;
+    height: 150px;
+    text-align: center;
+}
+
+#modalClose{
+    position: relative;
+    bottom: 55px;
+    left: 90px;
+    
+}
+
+#modalClose:hover{
+    transform: scale(1.2);
+}

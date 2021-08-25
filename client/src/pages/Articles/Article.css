@@ -1,0 +1,30 @@
+.articleCard{
+	width: 25%;
+	height: 25%;
+}
+
+.bundleCard{
+	width: 60%;
+}
+
+
+.keywordImg {
+	height: 50px;
+	width: auto;
+	max-width: 250px;
+}
+
+.thumbnailImg {
+	max-width: 90vw;
+}
+
+.bckgrd {
+	background-color: #011627 !important;
+}
+
+
+.img-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

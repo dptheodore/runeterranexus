@@ -1,0 +1,40 @@
+.left{
+    float: left; 
+}
+.right{
+    float: right; 
+}
+
+#neg-margin{
+    margin-top: -20px;
+    padding-top: 60px;
+}
+
+@media only screen and (min-width: 1025px) {
+    #side-margin{
+        width: 80%;
+        margin: auto;
+    }
+  }
+
+
+.set-tooltips{
+	background-color: #011627 !important;
+    width:215px !important;
+    opacity: 1 !important;
+}
+
+.hover-icon{
+    /* height: 35px;
+    width: 35px; */
+    display: inline;
+    margin-bottom: -6px;
+}
+
+.card-image{
+    transition: transform .1s;
+}
+
+.card-image:hover{
+    transform: scale(1.1);
+}

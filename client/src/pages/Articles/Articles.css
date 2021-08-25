@@ -1,0 +1,18 @@
+.cardImg{
+	width: 25%;
+	height: 25%;
+}
+
+.articleCardImage{
+	height: 150px;
+}
+
+.desc-text{
+	font-size: 75%
+
+}
+
+.fixed-height-card{
+	height: 290px;
+	margin-bottom: 40px;
+}

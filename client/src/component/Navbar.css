@@ -1,0 +1,41 @@
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    background-color: #FFF8F0;
+
+}
+.dropdown-item {
+	color: #011267 !important;
+}
+
+.disabled:hover {
+	color: rgba(255,255,255,.25) !important;
+}	
+
+
+.navbar-dark .navbar-nav .nav-link {
+    text-align: center;
+    color: rgba(255,248,240,1);
+
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-dark .navbar-nav .nav-link {
+    font-size: .8rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .navbar-dark .navbar-nav .nav-link {
+    font-size: 1rem;
+    }
+}
+
+.dropdown-toggle::after{
+
+	right:-2px;
+}
+
+#modal-link{
+    cursor:pointer;
+}
